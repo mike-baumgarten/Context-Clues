@@ -4,7 +4,41 @@
 //3. Code
 $(document).ready(function () {
     //1. Variables
-
+    var friends = ['Nikki', 'Mel', 'Matt', 'Joe', 'Brian'];
+    var locations = [
+        'Airplane Toilet',
+        'Everest',
+        'Oz',
+        'Bathtub',
+        'Sparta',
+        'Eiffel Tower',
+        'Venice',
+        'Mariana Trench',
+        'International Space Station',
+        'Hammam',
+    ];
+    var weapons = [
+        'Death Star',
+        'Mace',
+        'AK47',
+        'Sword',
+        'Glock',
+        'Bat',
+        'Broken Beer Bottle',
+        'Sharks with laser beams',
+        'Wookie',
+        '10',
+        '11',
+        '12',
+        '13',
+        '14',
+        '15',
+        '16',
+        '17',
+        '18',
+        '19',
+        '20',
+    ];
     //2. Functions
     // inserts h3 with id of h3count and adds accusation text
     function addH3(i) {
