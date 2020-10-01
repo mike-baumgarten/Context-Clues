@@ -4,7 +4,7 @@
 //3. Code
 $(document).ready(function () {
     //1. Variables
-    var friends = ['Nikki', 'Mel', 'Matt', 'Joe', 'Brian'];
+    var friends = ['Nikki', 'Mel', 'Matt', 'Joe', 'Jeff'];
     var locations = [
         'Airplane Toilet',
         'Everest',
