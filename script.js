@@ -40,22 +40,30 @@ $(document).ready(function () {
         '20',
     ];
     //2. Functions
+
     // inserts h3 with id of h3count and adds accusation text
     function addH3(i) {
         var $h3 = $('<h3>', { id: i }).text('Accustation ' + i);
         $('body').append($h3);
     }
 
+    // Adds alert by clicking to h3
     function addClick(i) {
         $('#' + i).on('click', function () {
-            alert('test ' + i);
+            alert(
+                'I accuse ' +
+                    friends[i % 5] +
+                    ', with the ' +
+                    weapons[i % 20] +
+                    ' in the ' +
+                    locations[i % 10]
+            );
         });
     }
 
-    function addAlert() {
-        alert('Test');
-    }
+    //3. Code
 
+    // Creates Accusations 1 - 100 and adds alert
     for (var i = 1; i <= 100; i++) {
         addH3(i);
         addClick(i);
