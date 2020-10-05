@@ -27,18 +27,19 @@ $(document).ready(function () {
         'Broken Beer Bottle',
         'Sharks with laser beams',
         'Wookie',
-        '10',
-        '11',
-        '12',
-        '13',
-        '14',
-        '15',
-        '16',
-        '17',
-        '18',
-        '19',
-        '20',
+        'Dog',
+        'Knife',
+        'Anvil',
+        'Laser',
+        'bomb',
+        'spoon',
+        'TV',
+        'razer blade',
+        'Airplane',
+        'Bear',
+        'Fist of Doom',
     ];
+
     //2. Functions
 
     // inserts h3 with id of h3count and adds accusation text
