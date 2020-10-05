@@ -42,7 +42,7 @@ $(document).ready(function () {
 
     //2. Functions
 
-    // inserts h3 with id of h3count and adds accusation text
+    // inserts h3 with id of i and adds accusation text
     function addH3(i) {
         var $h3 = $('<h3>', { id: i }).text('Accustation ' + i);
         $('body').append($h3);
